@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+label {
+	float:left;
+	width:40%;
+	margin:3px;
+	color:#FFF;
+	font-size:1.2em;
+}
+
+input {
+	float:left;
+	margin:3px;
+}
+
+fieldset {
+	margin:10px;
+	border-color:#4d2870;
+	padding:20px;
+	border-width:thin;
+}
+
+.button {
+	width:99%;
+	float:left;
+	height:40px;
+	border-style:solid;
+	border-bottom-width:thin;
+}
+
+button:hover {
+	background-color:#000;
+	width:99%;
+	float:left;
+	height:40px;
+	border-style:solid;
+	border-bottom-width:thin;
+}
+
+input[type="radio"] {
+	float:right;
+	margin-right:30px;
+}
+
+input[type="checkbox"] {
+	float:right;
+}
+
+input[type="text"] {
+	height:30px;
+	margin:3px;
+	background:inherit;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+}
+
+input[type="number"] {
+	height:30px;
+	margin:3px;
+	background:inherit;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+}
+
+tr, td {
+	border-style:none;
+	width:90%;
+	max-width:600px;
+	min-height:537px;
+	border-color:#FFF;
+	padding:30px;
+}
+
+table {
+	border-style:none;
+}
+
+textarea {
+	float:left;
+	width:95%;
+	height:150px;
+}
+
+.formlayout {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(Images/Promotion/o-NEW-YORK.jpg);
+	background-position:center;
+	background-repeat:repeat;
+}
+
+.error {
+	float:right;
+	margin-right:15px;
+	background-image:url(Images/form_transparent.png);
+}

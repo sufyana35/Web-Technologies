@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+label {
+	float:left;
+	width:40%;
+	margin:3px;
+	color:#FFF;
+	font-size:1.2em;
+}
+
+input {
+	float:left;
+	margin:3px;
+}
+
+fieldset {
+	margin:10px;
+	border-color:#4d2870;
+	padding:20px;
+	border-width:thin;
+}
+
+input[type="radio"] {
+	float:right;
+	margin-right:30px;
+}
+
+input[type="checkbox"] {
+	float:right;
+}
+
+input[type="text"],
+input[type="email"] {
+	height:30px;
+	margin:3px;
+	background:inherit;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+	margin-bottom:9px;
+}
+
+input[type="number"],
+input[type="tel"] {
+	height:30px;
+	margin:3px;
+	background:inherit;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+	margin-bottom:9px;
+}
+
+tr, td {
+	border-style:none;
+	width:90%;
+	max-width:600px;
+	min-height:537px;
+	border-color:#FFF;
+	padding:30px;
+	align-content:center;
+}
+
+table {
+	border-style:none;
+	margin:0 auto;
+}
+
+.formlayout {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(../Images/Promotion/o-NEW-YORK.jpg);
+	background-position:center;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+
+.error {
+	float:right;
+	margin-right:15px;
+	background-image:url(../Images/form_transparent.png);
+	padding:8px;
+}
+
+.button {
+	width:99%;
+	float:left;
+	height:40px;
+	border-style:solid;
+	border-width:thin;
+	background-color:#73479d;
+	color:#FFF;
+}
+
+.button:hover {
+	background-color:#60C;
+	width:99%;
+	float:left;
+	height:40px;
+	border-style:solid;
+	border-width:thin;
+	color:#000;
+}

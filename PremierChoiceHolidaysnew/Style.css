@@ -1,0 +1,674 @@
+@charset "utf-8";
+/* CSS Document */
+/*defualt values to load*/
+@font-face {
+    font-family: myFirstFont;
+    src:url(Fonts/2218167120.ttf);
+}
+h1 {
+	font-size:60px;
+	color:#FFF;
+	text-align:center;
+	font-family:myFirstFont, cursive;
+}
+h2 {
+	font-size:60px;
+	color:#FFF;
+	text-align:center;
+	font-family:sans-serif;
+}
+header {
+	font-size:40px;
+	color:#FFF;
+	font-family:sans-serif;
+}
+body {
+	margin:0px;
+    padding:0px;
+	background-color:#472567;
+	color:#FFF;
+	font-family:sans-serif;
+}
+
+/* Media query for desktop screens - 1080px or more*/
+@media (min-width: 1080px) {
+.wrapper {
+}
+/* Upper Content including logo and naviagtion*/
+/* contains the logo and navigation*/
+.banner {
+	width:100%;
+	min-height:30px;
+	background-color:#73479d;
+	float:left;
+	margin:0 auto;
+}
+/* contains company logo*/
+.logo {
+	height:50px;
+	width:150px;
+	float:left;
+	margin-top:20px;
+	background-image:url(Images/logo.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+/* navigation box for the menu*/
+.navigation {
+	height:50px;
+	min-width:100px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+}
+/* main menu to navigate the website*/
+.menu {
+	display:compact;
+	height: 30px;
+	padding: 20px 30px 0px 30px;
+	text-decoration:underline;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	max-width:200px;
+	float:right;
+	background-color:#74479d;
+	color:#FFF;
+}
+.menu:hover {
+	background-image:url(Images/navigation_hover.jpg);
+	background-repeat:repeat;
+}
+.content_text_main,
+.content_text {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(Images/content_text.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.content_text_main {
+	min-height:450px;
+	padding-top:150px;
+}
+.content_image {
+	margin:20px;
+	margin:0 auto;
+	background-image:url(Images/Full%20size%20images%20-%201080B/Full-sizetext.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:320px;
+	min-width:1000px;
+}
+/* Special offer content*/
+#content-one,
+#content-two,
+#content-three {
+	width:100%;
+	min-height:600px;
+	float:left;
+	padding:0px 0px 20px 0px;
+	background-position:top;
+	background-size:100%;
+	background-attachment:fixed;
+	background-color:#4d2870;
+	background-repeat:no-repeat;
+}
+#content-one {
+	background-image:url(Images/Full%20size%20images%20-%201080B/Image-content-one.jpg);
+	/*Backgroundnine, (2014), Purple Bridge Wallpaper [ONLINE]. Available at: http://backgroundnine.com/wp-content/uploads/2014/09/Purple-Bridge-Wallpaper.jpg [Accessed 30 October 14].*/
+}
+#content-two{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Celebrity-Cruises.jpg);
+}
+#content-three{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Dubai-04.jpg);
+}
+.row-one-text {
+	min-height:50px;
+	background-color:#73479d;
+	float:left;
+	width:100%;
+}
+.wrapperprices {
+   width:85%;
+   margin: 0 auto;
+   margin-left:5%;
+   margin-right:5%;
+   background-color:#73479d;
+   float:left;
+   padding:20px;
+   margin-top:10px;
+}
+.wrapmiddle {
+   float: left;
+   width: 100%;
+}
+.middle {
+   margin-right:210px;
+   margin-left:310px;
+   min-height: 160px;
+   padding:20px;
+}
+.left {
+   float: left;
+   width: 300px;
+   margin-left: -100%;
+   height: 160px;
+   padding:20px;
+}
+.right {
+   float: left;
+   width: 200px;
+   margin-left: -240px;
+   height: 200px;
+   padding:20px;
+}
+/* Footer*/
+.footer {
+	width:100%;
+	min-height:350px;
+	margin:0;
+	float:left;
+	background-color:#73479d;
+}
+#footer_text {
+	min-height:100px;
+	padding:30px;
+	text-align:center;
+	text-align:center;
+	font-size:16px;
+}
+/* wireframe layout*/
+.wireframe {
+	width:900px;
+	min-height:800px;
+	margin:auto;
+}
+}
+/* Media query for desktop screens - 1080px or less*/
+@media (max-width: 1080px) {
+	
+.wrapper {
+}
+/* Upper Content including logo and naviagtion*/
+/* contains the logo and navigation*/
+.banner {
+	width:100%;
+	min-height:30px;
+	background-color:#73479d;
+	float:left;
+	margin:0 auto;
+}
+/* contains company logo*/
+.logo {
+	height:50px;
+	width:150px;
+	float:left;
+	margin-top:20px;
+	background-image:url(Images/logo.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+/* navigation box for the menu*/
+.navigation {
+	height:50px;
+	min-width:100px;
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+}
+/* main menu to navigate the website*/
+.menu {
+	display:compact;
+	height: 30px;
+	padding: 20px 30px 0px 30px;
+	text-decoration:underline;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	max-width:200px;
+	float:right;
+	background-color:#74479d;
+	color:#FFF;
+}
+.menu:hover {
+	background-image:url(Images/navigation_hover.jpg);
+	background-repeat:repeat;
+}
+.content_text_main,
+.content_text {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(Images/content_text.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.content_text_main {
+	min-height:450px;
+	padding-top:50px;
+}
+.content_image {
+	margin:20px;
+	margin:0 auto;
+	background-image:url(Images/Full%20size%20images%20-%201080B/Full-sizetext.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:320px;
+	width:700px;
+}
+/* Special offer content*/
+#content-one,
+#content-two,
+#content-three {
+	width:100%;
+	min-height:600px;
+	float:left;
+	padding:0px 0px 20px 0px;
+	background-position:center;
+	background-size:auto;
+	background-attachment:fixed;
+	background-color:#4d2870;
+	background-repeat:no-repeat;
+}
+#content-one {
+	background-image:url(Images/Full%20size%20images%20-%201080B/Image-content-one.jpg);
+	/*Backgroundnine, (2014), Purple Bridge Wallpaper [ONLINE]. Available at: http://backgroundnine.com/wp-content/uploads/2014/09/Purple-Bridge-Wallpaper.jpg [Accessed 30 October 14].*/
+}
+#content-two{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Celebrity-Cruises.jpg);
+}
+#content-three{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Dubai-04.jpg);
+}
+.row-one-text {
+	min-height:50px;
+	background-color:#73479d;
+	float:left;
+	width:100%;
+}
+.wrapperprices {
+   width: 85%;
+   margin: 0 auto;
+   margin-left:5%;
+   margin-right:5%;
+   background-color:#73479d;
+   float:left;
+   padding:20px;
+   margin-top:10px;
+}
+.wrapmiddle{
+   float: left;
+   width: 100%;
+}
+.middle{
+   margin-right:210px;
+   margin-left:210px;
+   min-height: 160px;
+   padding:20px;
+}
+.left{
+   float: left;
+   width: 200px;
+   margin-left: -100%;
+   height: 160px;
+   padding:20px;
+}
+.right {
+	float: left;
+	width: 200px;
+	margin-left: -240px;
+	height: 200px;
+	padding:20px
+}
+/* Footer*/
+.footer {
+	width:100%;
+	min-height:350px;
+	margin:0;
+	float:left;
+	background-color:#73479d;
+}
+#footer_text {
+	min-height:100px;
+	padding:30px;
+	text-align:center;
+	text-align:center;
+	font-size:16px;
+}
+/* wireframe layout*/
+.wireframe {
+	width:900px;
+	min-height:800px;
+	margin:auto;
+}
+}
+
+/* Media query for small screens - 760px or less*/
+@media screen and (max-width: 760px) {
+
+.wrapper {
+}
+/* Upper Content including logo and naviagtion*/
+/* contains the logo and navigation*/
+.banner {
+	width:100%;
+	min-height:30px;
+	background-color:#73479d;
+	float:left;
+	margin:0 auto;
+}
+/* contains company logo*/
+.logo {
+	height:50px;
+	width:150px;
+	float:left;
+	margin-top:20px;
+	background-image:url(Images/logo.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+/* navigation box for the menu*/
+.navigation {
+	height:auto;
+	width:100%;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+/* main menu to navigate the website*/
+.menu {
+	float:left;
+}
+.menu:hover {
+	background-image:url(Images/navigation_hover.jpg);
+	background-repeat:repeat;
+}
+.content_text_main,
+.content_text {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(Images/content_text.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.content_text_main {
+	min-height:450px;
+	padding-top:50px;
+}
+.content_image {
+	margin:20px;
+	margin:0 auto;
+	background-image:url(Images/Full%20size%20images%20-%201080B/Full-sizetext.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:320px;
+	width:90%;
+}
+/* Special offer content*/
+#content-one,
+#content-two,
+#content-three {
+	width:100%;
+	min-height:600px;
+	float:left;
+	background-position:center;
+	background-size:auto;
+	background-attachment:fixed;
+	background-color:#4d2870;
+	background-repeat:no-repeat;
+}
+#content-one {
+	background-image:url(Images/Full%20size%20images%20-%201080B/Image-content-one.jpg);
+	/*Backgroundnine, (2014), Purple Bridge Wallpaper [ONLINE]. Available at: http://backgroundnine.com/wp-content/uploads/2014/09/Purple-Bridge-Wallpaper.jpg [Accessed 30 October 14].*/
+}
+#content-two{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Celebrity-Cruises.jpg);
+}
+#content-three{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Dubai-04.jpg);
+}
+.row-one-text {
+	min-height:50px;
+	background-color:#73479d;
+	float:left;
+	width:100%;
+}
+.wrapperprices {
+   width: 90%;
+   margin: 0 auto;
+   background-color:#73479d;
+   float:left;
+   padding:0px;
+   margin-top:10px;
+   margin-bottom:10px;
+}
+.wrapmiddle{
+	float:left;
+}
+.middle{
+   min-height: 250px;
+   float:left;
+   margin: 0px 0px 0px 0px;
+}
+.left{
+   float: left;
+   min-height: 100px;
+   margin: 0px 0px 0px 0px;
+}
+.right {
+   float: left;
+   width: 100%;
+   min-height: 200px;
+   margin: 0px 0px 0px 0px;
+}
+/* Footer*/
+.footer {
+	width:100%;
+	min-height:350px;
+	margin:0;
+	float:left;
+	background-color:#73479d;
+}
+#footer_text {
+	min-height:100px;
+	padding:30px;
+	text-align:center;
+	text-align:center;
+	font-size:16px;
+}
+/* wireframe layout*/
+.wireframe {
+	width:900px;
+	min-height:800px;
+	margin:auto;
+}
+}
+
+/* Media query for mobile sixed devices - 550px or less*/
+@media only screen and (max-width: 550px) {
+.wrapper {
+}
+header {
+	font-size:30px;
+	color:#FFF;
+	font-family:myFirstFont, cursive;
+	font-stretch:ultra-expanded;
+}
+/* Upper Content including logo and naviagtion*/
+/* contains the logo and navigation*/
+.banner {
+	width:100%;
+	min-height:30px;
+	background-color:#73479d;
+	float:left;
+	margin:0 auto;
+}
+/* contains company logo*/
+.logo {
+	height:50px;
+	width:150px;
+	float:left;
+	margin-top:20px;
+	background-image:url(Images/logo.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+/* navigation box for the menu*/
+.navigation {
+	height:auto;
+	width:100%;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+/* main menu to navigate the website*/
+.menu {
+	display:block;
+	padding: 20px 30px 0px 30px;
+	text-decoration:underline;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	min-width:100%;
+	float:right;
+	background-color:#74479d;
+	color:#FFF;
+}
+.menu:hover {
+	background-image:url(Images/navigation_hover.jpg);
+	background-repeat:repeat;
+}
+.content_text_main,
+.content_text {
+	width:100%;
+	min-height:150px;
+	float:left;
+	background-color:#4d2870;
+	background-image:url(Images/content_text.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.content_text_main {
+	min-height:450px;
+	padding-top:50px;
+}
+.content_image {
+	margin:20px;
+	margin:0 auto;
+	background-image:url(Images/Full%20size%20images%20-%201080B/Full-sizetext.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:320px;
+	width:90%;
+}
+/* Special offer content*/
+#content-one,
+#content-two,
+#content-three {
+	width:100%;
+	min-height:600px;
+	float:left;
+	padding:0px 0px 20px 0px;
+	background-position:center;
+	background-size:auto;
+	background-attachment:fixed;
+	background-color:#4d2870;
+	background-repeat:no-repeat;
+}
+#content-one {
+	background-image:url(Images/Full%20size%20images%20-%201080B/Image-content-one.jpg);
+	/*Backgroundnine, (2014), Purple Bridge Wallpaper [ONLINE]. Available at: http://backgroundnine.com/wp-content/uploads/2014/09/Purple-Bridge-Wallpaper.jpg [Accessed 30 October 14].*/
+}
+#content-two{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Celebrity-Cruises.jpg);
+}
+#content-three{
+	background-image:url(Images/Full%20size%20images%20-%201080B/Dubai-04.jpg);
+}
+.row-one-text {
+	min-height:50px;
+	background-color:#73479d;
+	float:left;
+	width:100%;
+}
+.wrapperprices {
+   width: 80%;
+   margin: 0 auto;
+   background-color:#73479d;
+   float:left;
+   padding:0px;
+   margin-top:10px;
+   margin-bottom:10px;
+}
+.wrapmiddle{
+	float:left;
+}
+.middle{
+   min-height: 250px;
+   float:left;
+   margin: 0px 0px 0px 0px;
+}
+.left{
+   float: left;
+   min-height: 100px;
+   margin: 0px 0px 0px 0px;
+}
+.right {
+   float: left;
+   min-height: 200px;
+   margin: 0px 0px 0px 0px;
+}
+
+/* Footer*/
+.footer {
+	width:100%;
+	min-height:350px;
+	margin:0;
+	float:left;
+	background-color:#73479d;
+}
+#footer_text {
+	min-height:100px;
+	padding:30px;
+	text-align:center;
+	text-align:center;
+	font-size:16px;
+}
+/* wireframe layout*/
+.wireframe {
+	width:900px;
+	min-height:800px;
+	margin:auto;
+}
+}

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/* A simple no functional form at the top of the index(home) page*/
+.search {
+	width:100%;
+	margin:auto;
+	min-height:50px;
+}
+
+#searchboxes,
+#searchboxes2,
+#searchboxes3,
+#searchboxes4,
+#searchboxes5,
+#searchboxes6,
+#searchboxes7 {
+	width:120px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	height:70px;
+	float:left;
+	
+}
+
+label {
+	float:left;
+	width:100px;
+	margin:3px;
+	color:#FFF;
+	font-size:1.2em;
+}
+
+input[type="number"],
+input[type="date"] {
+	margin:3px;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+	margin-bottom:9px;
+}
+
+input[type="number"]{
+	height:31px;
+}
+
+input[type="date"]{
+	height:33px;
+}
+
+#jumpMenu,
+#jumpMenu2 {
+	height:35px;
+	margin:3px;
+	border-color:#FFF;
+	border-style:solid;
+	border-width:thin;
+	width:97%;
+	margin-bottom:9px;
+}
+
+.center {
+	margin: 0 auto;
+	width:950px;
+}
+
+@media (max-width: 1080px) {
+	.center {
+	margin: 0 auto;
+	width:100%;
+}
+
+#searchboxes,
+#searchboxes2,
+#searchboxes3,
+#searchboxes4,
+#searchboxes5,
+#searchboxes6,
+#searchboxes7 {
+	width:13%;
+	margin-top:5px;
+	margin-left:2px;
+	margin-right:2px;
+	height:70px;
+	float:left;	
+}
+}
+
+@media screen and (max-width: 760px) {
+#searchboxes,
+#searchboxes2,
+#searchboxes3,
+#searchboxes4,
+#searchboxes5,
+#searchboxes6,
+#searchboxes7 {
+	width:100px;;
+	margin-top:5px;
+	margin-left:2px;
+	margin-right:2px;
+	height:70px;
+	float:left;
+}
+}

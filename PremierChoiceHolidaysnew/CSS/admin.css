@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Admin Page */
+.center {
+	margin:auto;
+	background-color:#73479d;
+	min-height:2000px;
+	width:75%;
+	padding:10px;
+	margin-bottom:300px;
+}
+
+.content_text {
+	width:80%;
+	min-height:150px;
+	float:left;
+	padding-bottom:50px;
+	padding-top:50px;
+	margin:auto;
+}
+
+.resultBox {
+	float:left;
+	background-color:#96C;
+	min-height:15px;
+	width:100%;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color:#909;
+	margin-top:20px;
+}
+
+/* Credits page */
+
+.sources {
+	width:90%;
+	padding:20px;
+	min-height:2000px;
+	background-color:#73479d;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+/* Overide CSS */
+.content_text {
+	float:left !important;
+}
+
+@media only screen and (max-width: 610px) {
+/* Admin page */
+.center {
+	margin:0 auto;
+	background-color:#73479d;
+	height:2000px;
+	width:100%;
+	padding:0px;
+}
+
+.sources {
+	width:90%;
+	padding:20px;
+	min-height:2000px;
+	background-color:#73479d;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+/* Sets image to 100% of DIV CLASS */
+.sources img{
+	width:100%;
+}
+
+}
